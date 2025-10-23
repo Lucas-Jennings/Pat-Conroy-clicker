@@ -1,1 +1,1 @@
-JUST DOWNLOAD IT AND OPEN THE HTML
+Just download and open the HTML
