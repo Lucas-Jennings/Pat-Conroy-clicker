@@ -172,7 +172,6 @@
     <!-- Planetary Upgrades -->
     <button id="mercury">Colonize Mercury</button>
     <button id="venus">Colonize Venus</button>
-    <button id="earth">Colonize Earth (Again)</button>
     <button id="mars">Colonize Mars</button>
     <button id="jupiter">Colonize Jupiter</button>
     <button id="saturn">Colonize Saturn</button>
@@ -224,7 +223,6 @@
       // 🪐 Planetary Upgrades
       'mercury': { cost: 500000, effect: () => voteRate += 500, multiplier: 2.7, label: 'Colonize Mercury' },
       'venus': { cost: 600000, effect: () => voteRate += 600, multiplier: 2.7, label: 'Colonize Venus' },
-      'earth': { cost: 700000, effect: () => voteRate += 700, multiplier: 2.7, label: 'Colonize Earth (Again)' },
       'mars': { cost: 800000, effect: () => voteRate += 800, multiplier: 2.7, label: 'Colonize Mars' },
       'jupiter': { cost: 900000, effect: () => voteRate += 900, multiplier: 2.7, label: 'Colonize Jupiter' },
       'saturn': { cost: 1000000, effect: () => voteRate += 1000, multiplier: 2.7, label: 'Colonize Saturn' },
@@ -237,11 +235,11 @@
 
       // 🔮 Ascension
       'ascend': {
-        cost: 5000000000000000000000000000000,
+        cost: 5000000000000000000000000000000000000,
         effect: () => {
           clickPower *= 10;
           voteRate *= 10;
-          votes += 1000000;
+          votes += 100000000000000000000000000000000000000;
           showPopup("You have ascended beyond politics!");
           const overlay = document.getElementById('ascension-overlay');
           overlay.style.display = 'flex';
